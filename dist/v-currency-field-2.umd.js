@@ -1,12 +1,12 @@
 /*!
- * v-currency-field v3.1.1 
- * (c) 2020 Philipe Augusto <phiny1@gmail.com>
+ * v-currency-field-2 v3.1.3 
+ * (c) 2022 Tim <anhtu1812@gmail.com>
  * Released under the MIT License.
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = global || self, factory(global.VCurrencyField = {}));
+  (global = global || self, factory(global.VCurrencyField2 = {}));
 }(this, (function (exports) { 'use strict';
 
   function _typeof(obj) {
@@ -993,7 +993,7 @@
             }
 
             if (_keyup) {
-              _keyup();
+              _keyup(event);
             }
           }
         });
@@ -1118,7 +1118,7 @@
       undefined
     );
 
-  var version = '3.1.1';
+  var version = '3.1.3';
 
   function install(Vue, globalOptions) {
     if (globalOptions) {
