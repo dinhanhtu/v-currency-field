@@ -1,5 +1,5 @@
 /*!
- * v-currency-field-2 v3.1.3 
+ * v-currency-field-2 v3.1.5 
  * (c) 2022 Tim <anhtu1812@gmail.com>
  * Released under the MIT License.
  */
@@ -1112,7 +1112,7 @@ var __vue_staticRenderFns__ = [];
     undefined
   );
 
-var version = '3.1.3';
+var version = '3.1.5';
 
 function install(Vue, globalOptions) {
   if (globalOptions) {

@@ -1,6 +1,6 @@
 {
   "name": "v-currency-field-2",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "description": "Currency component for vuetify v-text-field",
   "author": "Tim <anhtu1812@gmail.com>",
   "license": "MIT",
@@ -27,15 +27,15 @@
     "prepublish": "vue-cli-service lint && NODE_ENV=production vue-cli-service docs --mode build && vue-cli-service build",
     "start": "vue-cli-service serve"
   },
-  "main": "dist/v-currency-field.common.js",
-  "module": "dist/v-currency-field.esm.js",
-  "unpkg": "dist/v-currency-field.umd.min.js",
+  "main": "dist/v-currency-field-2.common.js",
+  "module": "dist/v-currency-field-2.esm.js",
+  "unpkg": "dist/v-currency-field-2.umd.min.js",
   "files": [
     "dist/",
-    "dist/v-currency-field.common.js",
-    "dist/v-currency-field.umd.min.js",
-    "dist/v-currency-field.umd.js",
-    "dist/v-currency-field.esm.js",
+    "dist/v-currency-field-2.common.js",
+    "dist/v-currency-field-2.umd.min.js",
+    "dist/v-currency-field-2.umd.js",
+    "dist/v-currency-field-2.esm.js",
     "src",
     "nuxt",
     "nuxt-treeshaking"
@@ -79,11 +79,11 @@
     "> 1%",
     "last 2 versions"
   ],
-  "jsdelivr": "dist/v-currency-field.umd.min.js",
+  "jsdelivr": "dist/v-currency-field-2.umd.min.js",
   "sideeffects": false,
   "size-limit": [
     {
-      "path": "dist/v-currency-field.js",
+      "path": "dist/v-currency-field-2.js",
       "limit": "4.0 KB"
     }
   ],
