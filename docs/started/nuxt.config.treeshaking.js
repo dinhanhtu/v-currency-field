@@ -1,6 +1,6 @@
 {
   modules: [
-    ['v-currency-field/nuxt-treeshaking', {
+    ['v-currency-field-2/nuxt-treeshaking', {
       locale: 'pt-BR',
       decimalLength: 2,
       autoDecimalMode: true,

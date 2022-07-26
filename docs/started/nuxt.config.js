@@ -1,6 +1,6 @@
 {
   modules: [
-  	['v-currency-field/nuxt', {
+  	['v-currency-field-2/nuxt', {
       locale: 'pt-BR',
       decimalLength: 2,
       autoDecimalMode: true,

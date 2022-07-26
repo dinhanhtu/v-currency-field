@@ -146,7 +146,7 @@ export default {
           }
           
           if (keyup) {
-            keyup();
+            keyup(event);
           }
         }
       };
